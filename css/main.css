@@ -1,0 +1,35 @@
+*{margin:0 0; padding: 0 0;}
+
+body{
+	background-color: #a2a2a2;
+	background: url('../img/bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.centered{
+	text-align: center;
+}
+
+#content{
+	margin: 0 auto;
+}
+
+li{
+	text-decoration: none;
+}
+
+#floater{
+	position:relative; 
+	float:left;
+	height:35%;
+	width: 100%; 
+	margin-bottom:-50px;
+}
+
+#centered {
+	position:relative; clear:left;
+	margin:0 auto;
+}
