@@ -1,51 +1,286 @@
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>BookIT</title>
-	<link href="img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<!DOCTYPE html>
+<html lang="en" class=" js no-touch cssanimations csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="bookIT">
+		<meta name="keywords" content="">
+		<meta name="author" content="Daniely Wright">
+		<link href="img/favicon.png" rel="">
+		<title>BookIT</title>
 
-    <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
+		<link href="css/animate.min.css" rel="stylesheet">
+		<link href="css/colorpickr.css" rel="stylesheet">
+		<link href="css/linecons.css" rel="stylesheet">
+		<link href="css/social-icons.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<!-- Web Fonts -->
+		<link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-	
-    <link rel="stylesheet" type="text/css"  href="css/main.css" />
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,300' rel='stylesheet' type='text/css'>
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<script src="js/modernizr.custom.js"></script>
+	</head>
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-	
-</head>
-<body>
+	<body data-spy="scroll" data-offset="0" data-target=".navbar">
 
-	<div id="wrapper">
-		<div id="header">
-			
-		</div>
-		<div id="floater"></div>
-		<div id="centered">
-			<div id="content" class="centered">
-				<ul>
-					<li><img src="img/bookit.png" alt="logo" height="300" ></li>
-					<li><img src="img/text.png" alt="logo" height="100" ></li>
-				</ul>
+
+
+		<!-- Header Wrap -->
+		<section id="home" name="home"></section>
+		<div class="headerwrap">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-lg-12">
+						<h1>Welcome To <b>bookIT</b></h1>
+						<h3>Manage your hotel from the cloud.</h3>
+						<br>
+					</div>
+
+					<div class="col-lg-2 hidden-xs hidden-sm hidden-md">
+						<h5>User-friendly</h5>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<img src="img/arrow-left.png" alt="">
+					</div>
+					<div class="col-lg-8">
+						<img class="img-responsive" src="img/app-bg.png" alt="">
+						<!--<h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+						<a href="#features" type="submit" class="btn btn-lg btn-theme smoothScroll">LEARN MORE</a>-->
+					</div>
+					<div class="col-lg-2 hidden-xs hidden-sm hidden-md">
+						<br>
+						<img class="pad-top" src="img/arrow-right.png" alt="">
+						<h5>Accesible 24/7</h5>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+				</div>
+			</div> <!-- /container -->
+		</div><!-- /headerwrap -->
+
+
+		<!-- Intro Wrap -->
+		<div class="intro">
+			<div class="container">
+				<div class="row text-center">
+					<h2>Title 1</h2>
+					<hr>
+					<br>
+					<br>
+					<div class="col-lg-3">
+						<licon class="li_user"></licon>
+						<h3>Subtitle here</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+					<div class="col-lg-3">
+						<licon class="li_banknote"></licon>
+						<h3>Subtitle here</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+					<div class="col-lg-3">
+						<licon class="li_data"></licon>
+						<h3>Subtitle here</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+					<div class="col-lg-3">
+						<licon class="li_like"></licon>
+						<h3>Subtitle here</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+				</div>
+				<br>
+			</div> <!-- /container -->
+		</div><!-- /introwrap -->
+
+
+		<!-- Features Wrap -->
+		<section id="features" name="features"></section>
+		<div class="featureswrap">
+			<div class="container">
+				<div class="row">
+					<h2 class="text-center">Features</h2>
+					<hr>
+					<br>
+					<br>
+					<div class="col-lg-6">
+						<img class="img-responsive left animated fadeInLeftBig delayp1" src="img/mobile1.png" alt="" style="opacity: 0;">
+					</div>
+
+					<div class="col-lg-6">
+						<br>
+						<!-- Accordion -->
+						<div class="accordion ac" id="accordion2">
+							<div class="accordion-group active">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+									<i class="fa fa-cloud"></i> Subtitle
+									</a>
+								</div><!-- /accordion-heading -->
+								<div id="collapseOne" class="accordion-body collapse in">
+									<div class="accordion-inner">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, at quas voluptas tempore rerum nisi veritatis consectetur accusantium repellat autem consequatur molestiae qui odio ullam quidem harum quos voluptatum animi!</p>
+									</div><!-- /accordion-inner -->
+								</div><!-- /collapse -->
+							</div><!-- /accordion-group -->
+							<br>
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+									<i class="fa fa-mail-forward"></i> Subtitulo
+									</a>
+								</div>
+								<div id="collapseTwo" class="accordion-body collapse">
+									<div class="accordion-inner">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, facilis, earum, in nihil corporis libero debitis nisi alias quidem a odit quis sed placeat autem architecto incidunt esse fugiat vel!</p>
+									</div><!-- /accordion-inner -->
+								</div><!-- /collapse -->
+							</div><!-- /accordion-group -->
+							<br>
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+									<i class="fa fa-bar-chart-o"></i> Subtitle
+									</a>
+								</div>
+								<div id="collapseThree" class="accordion-body collapse">
+									<div class="accordion-inner">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, saepe, asperiores, eligendi, reprehenderit fuga dolorem esse assumenda reiciendis cum hic veniam illo nemo iure earum consequatur culpa unde neque possimus!</p>
+									</div><!-- /accordion-inner -->
+								</div><!-- /collapse -->
+							</div><!-- /accordion-group -->
+							<br>
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+									<i class="fa fa-dashboard"></i> Subtitle
+									</a>
+								</div>
+								<div id="collapseFour" class="accordion-body collapse">
+									<div class="accordion-inner">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, maiores nesciunt eos ipsa et magnam perspiciatis. Natus, incidunt, porro dicta ex illo praesentium facilis magnam voluptas. Nemo, optio mollitia cum.</p>
+									</div><!-- /accordion-inner -->
+								</div><!-- /collapse -->
+							</div><!-- /accordion-group -->
+							<br>
+						</div><!-- /accordion -->
+					</div>
+				</div><!-- /row -->
+				<br><br><br>
+				<div class="row">
+					<h2 class="text-center">Titulo aca</h2>
+					<hr><br><br>
+					<div class="col-lg-6">
+						<br><br>
+						<h4><i class="fa fa-cogs"></i> Subtitulo</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, ipsam, iure quo voluptate reprehenderit eius unde perspiciatis dolorum suscipit accusantium eligendi incidunt voluptatem eum temporibus sapiente nostrum dolorem natus quas.</p>
+						<br><br>
+					</div>
+
+					<div class="col-lg-6">
+						<img class="img-responsive right animated fadeInRightBig delayp1" src="img/tablet1.png" alt="" style="opacity: 0;">
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+			</div><!-- /container -->
+		</div><!-- /featureswrap -->
+
+
+
+
+		<!-- Divider 2 Section -->
+		<div class="divider02">
+			<div class="container text-center">
+				<h3>Start your 30-day free trial today.</h3>
+				<a href="" type="button" class="btn btn-lg btn-theme2">Get Started</a>
 			</div>
-		</div>
-		<div id="slider" class="centered">
-			<h1>SCREENSHOTS</h1>
-			<ul>
-				<li><img src="img/login.jpg" alt="logo" height="400" ></li>
-				<li><img src="img/screenshot-reservas-index.PNG" alt="logo" height="400" ></li>
-			</ul>
-		</div>
-		<div id="footer">
-			
-		</div>
-	</div>
+		</div><!-- /divider02 -->
+
+
+		<!-- Footer Wrap -->
+		<section id="contact" name="contact"></section>
+		<div class="footerwrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<h3>Contact Us</h3>
+						<br>
+						<p><i class="fa fa-map-marker"></i> Some Address 1234, Montevideo, UY <br>
+							<i class="fa fa-phone"></i> (598) 1234 5678 <br>
+							<i class="fa fa-envelope-o"></i> <a href="">info@bookituy.com</a>
+						</p>
+					</div>
+
+					<div class="col-lg-4">
+						<h3>We Are Social</h3>
+						<br>
+						<div id="social">
+							<a href="" title="Facebook" class="facebook">Facebook</a>
+							
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<h3>Newsletter</h3>
+						<br>
+						<p>Subscribe to our newsletter and be the first to know our latest updates.</p>
+						<div class="form-inline">
+							<input type="text" class="form-control" placeholder="Your email">
+							<button class="btn btn-theme" type="button">Subscribe</button>
+						</div>
+					</div>
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</div><!-- /footerwrap -->
+
+
+		<!-- Copyright Wrap -->
+		<div class="copywrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-10">
+						<p>Copyright ©2014 BookIT. All Rights Reserved.</p>
+					</div>
+					<div class="col-lg-2">
+						<p><a href="">Privacy</a> | <a href="">Legal</a></p>
+					</div>
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</div><!-- /copywrap (copyright) -->
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/detectmobilebrowser.js"></script>
+		<script src="js/jquery.inview.min.js"></script>
+		<script src="js/smoothscroll.js"></script>
+		<script src="js/colorpickr.js"></script>
+		<script src="js/animations.js"></script>
+		<script>
+			$('.carousel').carousel({
+				interval: 3500,
+				pause: "none"
+			})
+
+			$('.nav li a').on('click',function(){
+				$('.navbar-collapse').collapse('hide');
+			})
+		</script>
 	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-</body>
-</html>
+
+</body></html>
